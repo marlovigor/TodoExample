@@ -45,8 +45,10 @@
   margin:0 auto;
   margin-top:8%;
   width:50%;
-  border: 3px solid rgb(0, 60, 255);
+  background-color: rgba(7, 94, 109, 0.452);
+  border: 5px solid rgb(1, 1, 2);
   border-radius:15px;
+  padding-bottom: 20px;
   box-shadow: 10px 8px 2px 1px rgba(0, 0, 0, 0.212);
 }
 
@@ -56,36 +58,41 @@
   margin-top:20px;
   display: flex;
   background-color:skyblue;
-  /* justify-content: center; */
+  padding:5px;
+  margin-bottom: 25px;
+  padding:0;
   width:90%;
-  border: 3px solid rgb(255, 30, 0);
+  /* border: 3px solid rgb(255, 30, 0); */
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.deleteTodos{
+  display:none;
+} 
+
+.item-div:hover .deleteTodos{
+  display:flex;
+  color:white;
+  font-size:4vw;
+  /* padding:0px; */
+  background-color:red;
+  border-radius: 25px 0px 0px 25px;
+  max-width:20%;
+  
 }
 
 .Form{
   position: relative;
   left:33%
 }
+
 .todoItems{
   background-color:skyblue;
   text-align:center;
+  max-height: 20px;
 }
  
- /* .deleteTodos{
-  display:none;
-}  */
 
-/* .todoItems:hover button{
-  color:white;
-  font-size:1.5rem;
-  background-color:red;
-  width:30%;
 
-} */
-.deleteTodos{
-  color:white;
-  font-size:1.5rem;
-  background-color:red;
-  width:30%;
-
-}
 
